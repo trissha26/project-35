@@ -34,22 +34,22 @@ function draw(){
 
         if(keyDown(UP_ARROW)){
             updateHeight(0,-10);
-            balloon.addAnimation("hotAitballoon", balloonImg2);
+            balloon.addAnimation("hotAitballoon3", balloonImg2);
             balloon.scale = balloon.scale -0.01;
         }
         if(keyDown(DOWN_ARROW)){
             updateHeight(0,10);
-            balloon.addAnimation("hotAitballoon", balloonImg3);
+            balloon.addAnimation("hotAitballoon1", balloonImg3);
             balloon.scale = balloon.scale -0.01;
         }
         if(keyDown(RIGHT_ARROW)){
             updateHeight(10, 0);
-            balloon.addAnimation("hotAitballoon", balloonImg4);
+            balloon.addAnimation("hotAitballoon2", balloonImg4);
             balloon.scale = balloon.scale -0.01;
         }
         if(keyDown(LEFT_ARROW)){
             updateHeight(-10, 0);
-            balloon.addAnimation("hotAitballoon", balloonImg2);
+            balloon.addAnimation("hotAitballoon3", balloonImg2);
             balloon.scale = balloon.scale -0.01;
         }
         
